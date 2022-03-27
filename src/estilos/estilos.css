@@ -1,0 +1,10 @@
+.hoverdiv:hover {
+  background-color: rgb(230, 229, 229);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hoverdiv {
+  padding: 5px;
+  color: black;
+}
