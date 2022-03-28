@@ -38,10 +38,10 @@ export default function Album() {
 
   const listaTemas = temas.map((tema) => {
     return (
-      <Link to="/play/">
+      <div>
         <li className="p-4 is-flex is-flex-direction-column is-justify-content-space-around hoverdiv"
           >{tema.numero} - {tema.nombre} - {(tema.duracion*(1/1000)*(1/60)).toFixed(1)} minutos</li>{" "}
-      </Link>
+      </div>
     );
   });
 
