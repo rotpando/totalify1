@@ -5,7 +5,7 @@ import "../estilos/estilos.css"
 
 const Albums = (albums) => {
   console.log(albums);
-
+ 
   const discos = Object.keys(albums).map((num) => {
     return (
       <Link to={"/albums/" + albums[num].id} style={{color:"black"}}>
